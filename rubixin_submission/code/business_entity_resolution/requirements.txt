@@ -1,0 +1,15 @@
+# Business Entity Resolution — pinned dependencies (CUDA 12 GPU environment)
+# All model components are MIT-licensed and < 8B parameters.
+
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.2
+lightgbm==4.5.0
+rapidfuzz==3.9.7
+jellyfish==1.1.0
+wordninja==2.0.0
+sentence-transformers==3.1.1        # BGE-M3 loader (BAAI/bge-m3, MIT, 568M params)
+torch==2.4.0                        # CUDA 12 build
+faiss-gpu-cu12==1.9.0               # GPU nearest-neighbour search
+tqdm==4.66.5
+joblib==1.4.2

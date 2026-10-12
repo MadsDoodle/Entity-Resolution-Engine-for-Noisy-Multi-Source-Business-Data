@@ -1,0 +1,25 @@
+# --- Large challenge data (re-downloadable; exceeds GitHub file limits) ---
+student_resource/dataset/
+**/*.tsv
+
+# --- Large / regenerable artifacts & archives ---
+*.zip
+*.pkl
+*.dat
+*.npy
+*.parquet
+work/
+output/*.tsv
+
+# --- OS / editor cruft ---
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
